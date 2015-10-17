@@ -2,16 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Flat UI Free 101 Template</title>
+    <title>I-waytrans inc</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Loading Bootstrap -->
-    <link href="../dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
 
     <!-- Loading Flat UI -->
-    <link href="../dist/css/flat-ui.min.css" rel="stylesheet">
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/vendor/jquery.social-buttons.css">
+    <!--link href="css/vendor.bootstrap-theme.min.css" rel="stylesheet" type="text/css" /-->
 
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="img/icons/i-waytrans.png">
+    <!--link href="css/style.css" rel="stylesheet" media="screen"-->
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
@@ -20,17 +25,306 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-        <h1>Hello, world!</h1>
+
+    <div id="header">
+        <div class="container">
+             <!-- Static navbar -->
+             <div class="logo">
+                    <a href=""><img src="img/i-waytrans.jpg" alt="i-waytrans"></a>
+              </div>
+
+               <div class="social">
+                    <div class="social__item">
+                        <span class="fa fa-facebook" data-social="fb"></span>
+                    </div>
+                    <div class="social__item">
+                        <span class="fa fa-vk" data-social="vk"></span>
+                    </div>
+                    <div class="social__item">
+                        <span class="fa fa-twitter" data-social="tw"></span>
+                    </div>
+                    <div class="social__item">
+                        <span class="fa fa-linkedin" data-social="ln"></span>
+                    </div>
+                    <div class="social__item">
+                        <span class="fa fa-pinterest" data-social="pt"></span>
+                    </div>
+                </div>
+
+
+             <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+                    <span class="sr-only">Toggle navigation</span>
+                  </button>
+            
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse-01">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="">Home</a></li>
+                    <li class="dropdown">
+                            <a href="http://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                              <li><a href="">Our Company</a></li>
+                              <li><a href="">Our Vision</a></li>
+                              <li><a href="">Our People</a></li>
+                              <li><a href="">Our Investors</a></li>
+                              <li><a href="">Award And Recognitions</a></li>
+                              <li><a href="">Technology</a></li>
+                              <li><a href="">Safety and Training</a></li>
+                              <li><a href="">Technology</a></li>
+                              <li><a href="">Privacy Policy</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="">Services</a></li>
+                          <li class="dropdown">
+                            <a href="http://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Customers <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                              <li><a href="http://getbootstrap.com/examples/navbar/#">Customer Login</a></li>
+                              <li><a href="http://getbootstrap.com/examples/navbar/#">Sign up for Customer Login</a></li>
+                              <li><a href="http://getbootstrap.com/examples/navbar/#">Documents and Forms</a></li>  
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a href="http://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Careers <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                              <li><a href="http://getbootstrap.com/examples/navbar/#">Careers at i-waytrans</a></li>
+                              <li><a href="http://getbootstrap.com/examples/navbar/#">General Career</a></li>
+                              <li><a href="http://getbootstrap.com/examples/navbar/#">Driver Career</a></li>  
+                            </ul>
+                          </li>
+
+                    
+                          <li><a href="">Contact us</a></li>
+
+                  </ul>
+                  <form class="navbar-form navbar-right" action="#" role="search">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input class="form-control" id="navbarInput-01" type="search" placeholder="Search">
+                        <span class="input-group-btn">
+                          <button type="submit" class="btn"><span class="fui-search"></span></button>
+                        </span>
+                      </div>
+                    </div>
+                  </form>
+                </div><!-- /.navbar-collapse -->
+              </nav><!-- /navbar -->
+              <!--nav class="navbar navbar-default" role="navigation">
+                  <div class="container-fluid">
+                      <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                          </button>
+                
+                      </div>
+                      <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="home.php">Home</a></li>
+                          <li class="dropdown">
+                            <a href="http://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                              <li><a href="">Our Company</a></li>
+                              <li><a href="">Our Vision</a></li>
+                              <li><a href="">Our People</a></li>
+                              <li><a href="">Our Investors</a></li>
+                              <li><a href="">Award And Recognitions</a></li>
+                              <li><a href="">Technology</a></li>
+                              <li><a href="">Safety and Training</a></li>
+                              <li><a href="">Technology</a></li>
+                              <li><a href="">Privacy Policy</a></li>
+                            </ul>
+                          </li>
+                           <li><a href="">Services</a></li>
+                          <li class="dropdown">
+                            <a href="http://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Customers <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                              <li><a href="http://getbootstrap.com/examples/navbar/#">Customer Login</a></li>
+                              <li><a href="http://getbootstrap.com/examples/navbar/#">Sign up for Customer Login</a></li>
+                              <li><a href="http://getbootstrap.com/examples/navbar/#">Documents and Forms</a></li>  
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a href="http://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Careers <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                              <li><a href="http://getbootstrap.com/examples/navbar/#">Careers at i-waytrans</a></li>
+                              <li><a href="http://getbootstrap.com/examples/navbar/#">General Career</a></li>
+                              <li><a href="http://getbootstrap.com/examples/navbar/#">Driver Career</a></li>  
+                            </ul>
+                          </li>
+                          <li><a href="http://getbootstrap.com/examples/navbar/#">Contact Us</a></li>
+                        </ul>
+                      </div><!--/.nav-collapse >
+                      <form class="navbar-form navbar-right" action="#" role="search">
+                        <div class="form-group">
+                          <div class="input-group">
+                            <input class="form-control" id="navbarInput-01" type="search" placeholder="Search">
+                            <span class="input-group-btn">
+                              <button type="submit" class="btn"><span class="fui-search"></span></button>
+                            </span>
+                          </div>
+                        </div>
+                      </form!-->
+                 </div><!--/.container-fluid -->
+              </nav!-->
+        </div>  
     </div>
-    <!-- /.container -->
+
+    <div id="main-section">
+        <div id="sidebar">
+            <div class="updates">
+                <div class="panel panel-default">
+                    <div class="panel-heading"> <span class="fui-bubble"></span><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp News and Updates</b></div>
+                    <div class="panel-body">
+                    <div class="row">
+                    <div class="col-xs-12">
+                    <ul class="demo2">
+                    <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                    <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                    <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                    <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                    <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                    <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></li>
+                    </ul>
+                    </div>
+                    </div>
+                    </div>
+                  
+                </div>
+            </div>
+            <div class="quicktrace">
+                <div class="panel panel-default">
+                    <div class="panel-heading"> <span class="fui-location"></span><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Quick Trace </b></div>
+                    <div class="panel-body">
+                    <div class="row">
+                    <div class="col-xs-12">
+                          <form class="form-horizontal">
+                            <div class="form-group">
+                              <!--label for="username" class="col-sm-2 control-label">Username</label!-->
+                              <div class="col-sm-12">
+                                <input type="text" class="form-control" id="username" placeholder="Username">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <!--label for="password" class="col-sm-2 control-label">Password</label1-->
+                              <div class="col-sm-12">
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <!--label for="username" class="col-sm-2 control-label">Username</label!-->
+                              <div class="col-sm-12">
+                                <input type="text" class="form-control" id="reference_no" placeholder="Reference Number">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                                
+                                <div class="col-sm-7">
+                                  <a href="">Forget Password?</a>
+                                <div class="col-sm-5">
+                                <button type="submit" class="btn btn-primary">Trace</button>
+                                
+                                </div>
+                              </div>
+                            </div>
+                            
+                          </form>
+                    
+                    </ul>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                  
+            </div>   <!--end of quicktrace-->
+            
+        </div>
+
+
+
+        <div id="section">
+          <h3>Heading</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim...</p>
+        </div>
+        
+    </div>
+    
+    <div class="clearfix">
+    </div>
+    <div id="footer">    
+               <!-- GET IT 
+                   ================================================== -->
+          <section class="get-it">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <ul>
+                                <li><a href="#link-here">Contact</a></li>
+                                <li><a href="#link-here">Blog</a></li>
+                                <li><a href="#link-here">Press</a></li>
+                                <li><a href="#link-here">Owner</a></li>
+                                <li><a href="#link-here">Developers</a></li>
+                                <li><a href="#link-here">Privacy</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="copy-rights">
+                        <p><span>Copyrights &nbsp&copy; 2015-16 @ </span><a href="">I-way Transportation Inc</a></p>
+                    </div>
+                  </div>
+          </section>
+    
+        
+    </div>
 
 
     <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
-    <script src="../dist/js/vendor/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../dist/js/vendor/video.js"></script>
-    <script src="../dist/js/flat-ui.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.social-buttons.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('[data-social]').socialButtons({
+                url: 'http://www.i-waytrans.com'
+            });
+        });
+    </script><script type="text/javascript">
+
+  
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/vendor/video.js"></script>
+    <script src="js/flat-ui.min.js"></script>
+    <script src="js/vendor/jquery.bootstrap.newsbox.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(function () {
+        $(".demo1").bootstrapNews({
+            newsPerPage: 3,
+            autoplay: true,
+      pauseOnHover:true,
+            direction: 'up',
+            newsTickerInterval: 4000,
+            onToDo: function () {
+                //console.log(this);
+            }
+        });
+    
+    $(".demo2").bootstrapNews({
+            newsPerPage: 3,
+            autoplay: true,
+            pauseOnHover: true,
+            navigation: false,
+            direction: 'down',
+            newsTickerInterval: 2000,
+            onToDo: function () {
+                //console.log(this);
+            }
+        });
+
+    });
+</script>
   </body>
 </html>

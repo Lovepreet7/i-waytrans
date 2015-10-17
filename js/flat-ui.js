@@ -12725,4 +12725,11 @@ the specific language governing permissions and limitations under the Apache Lic
     return this;
   };
 
+  $('[data-social]').socialButtons();
+
+$('[data-social]').socialShares({
+  url: 'http://www.jqueryscript.net' 
+});
+
+
 }(this, jQuery);
